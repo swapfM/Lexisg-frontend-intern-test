@@ -29,9 +29,9 @@ Make sure your backend (FastAPI server) is running at:
 ```
 http://localhost:8000
 ```
-### You may also visit
+### You may also visit and Follow the steps for running the backend API.
 ```
 https://github.com/swapfM/lexi.sg-rag-backend-test
 ```
-### Follow the steps for running the backend API.
+
 
