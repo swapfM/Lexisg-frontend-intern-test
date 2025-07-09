@@ -86,7 +86,7 @@ export default function LexiLegalChat() {
       setIsLoading(false);
     } catch (err) {
       console.error("Error:", err);
-      // Keep loading state active during the delay
+     
       setTimeout(() => {
         setMessages((prev) => [
           ...prev,
@@ -97,11 +97,10 @@ export default function LexiLegalChat() {
               "There was a problem connecting to the backend. Please try again later.",
           },
         ]);
-        setIsLoading(false); // Now set loading to false after showing the error
+        setIsLoading(false); 
       }, 2000);
     }
-    // Removed the finally block since we're handling setIsLoading in each path
-  };
+   
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Enter" && !e.shiftKey) {
