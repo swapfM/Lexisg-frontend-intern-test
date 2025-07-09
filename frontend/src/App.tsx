@@ -100,7 +100,7 @@ export default function LexiLegalChat() {
         setIsLoading(false); 
       }, 2000);
     }
-   
+  }
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Enter" && !e.shiftKey) {
