@@ -2,7 +2,8 @@
 
 This is the frontend of the **Lexi Legal Assistant**, built with **Vite** and **React** with **TypeScript**.
 
-### This app is hosted on :  https://lexisg-frontend-intern-test-delta.vercel.app/
+## This app is hosted on :  https://lexisg-frontend-intern-test-delta.vercel.app/
+## See It in Action: [Watch Demo on YouTube](https://youtu.be/cW7QPKiPaaU)
 
 ## Getting Started
 
