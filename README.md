@@ -15,5 +15,21 @@ cd frontend/
 ```bash
 npm install
 ```
+The app will start on:
+```
+http://localhost:5173
+```
 
+### 3. API Integration
+
+Make sure your backend (FastAPI server) is running at:
+
+```
+http://localhost:8000
+```
+### You may also visit
+```
+https://github.com/swapfM/lexi.sg-rag-backend-test
+```
+### Follow the steps for running the backend API.
 
